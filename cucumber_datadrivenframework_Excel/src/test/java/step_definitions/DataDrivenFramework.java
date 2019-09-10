@@ -28,7 +28,7 @@ public class DataDrivenFramework {
     }
     @When("^I open automationpractice website$")
     public void i_open_automationpractice_website() throws Throwable {
-        driver.get("http://sorterlog-sitedev.psi.psigroupinc.com");
+        driver.get("http://sorterlog-tst.psi.psigroupinc.com");
     }
     @When("^click contact us$")
     public void click_contact_us() throws Throwable {
