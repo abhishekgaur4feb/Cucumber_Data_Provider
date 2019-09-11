@@ -16,6 +16,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import Page_Object.User_Login_Object;
+import Utility.VideoRecorder_utlity;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 public class DataDrivenFramework {
@@ -28,6 +29,7 @@ public class DataDrivenFramework {
     }
     @When("^I open automationpractice website$")
     public void i_open_automationpractice_website() throws Throwable {
+    	
         driver.get("http://sorterlog-tst.psi.psigroupinc.com");
     }
     @When("^click contact us$")
@@ -47,7 +49,7 @@ public class DataDrivenFramework {
         
         
 		PageFactory.initElements(driver, User_Login_Object.class);  
-		
+		VideoRecorder_utlity.startRecord("Login_Validation_Recording");
         
         Thread.sleep(4000);
 		WebDriverWait wait1 = new WebDriverWait(driver, 50);
@@ -67,6 +69,8 @@ public class DataDrivenFramework {
 		WebElement element3 = wait3.until(ExpectedConditions.visibilityOf(User_Login_Object.Login_Button));
 		Thread.sleep(1000);
 		element3.click();
-        
-    }
+		
+		VideoRecorder_utlity.stopRecord();
+		
+	    }
 }
