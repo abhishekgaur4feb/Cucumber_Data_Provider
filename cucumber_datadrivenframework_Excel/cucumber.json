@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 3212184933,
+              "duration": 13622006906,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 2,
+        "line": 3,
         "name": "Data driven with excel",
         "description": "",
         "id": "fill-a-simple-form-with-excel-data;data-driven-with-excel",
         "after": [
           {
             "result": {
-              "duration": 1149609842,
+              "duration": 1169920165,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2929809872,
+              "duration": 774720751,
               "status": "passed"
             },
-            "line": 3,
+            "line": 4,
             "name": "I open automationpractice website",
             "match": {
               "location": "DataDrivenFramework.i_open_automationpractice_website()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 12121,
+              "duration": 48485,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "click contact us",
             "match": {
               "location": "DataDrivenFramework.click_contact_us()"
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 13850376582,
+              "duration": 14616987750,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I contact the customer service with excel row \"1\" dataset",
             "match": {
               "arguments": [
@@ -80,7 +80,7 @@
         "before": [
           {
             "result": {
-              "duration": 7529806089,
+              "duration": 8312044424,
               "status": "passed"
             },
             "match": {
@@ -88,14 +88,14 @@
             }
           }
         ],
-        "line": 12,
+        "line": 15,
         "name": "Data driven with excel and data sets",
         "description": "",
         "id": "fill-a-simple-form-with-excel-data;data-driven-with-excel-and-data-sets;;2",
         "after": [
           {
             "result": {
-              "duration": 1121401330,
+              "duration": 1117054174,
               "status": "passed"
             },
             "match": {
@@ -108,10 +108,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1642456381,
+              "duration": 21146202,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "I open automationpractice website",
             "match": {
               "location": "DataDrivenFramework.i_open_automationpractice_website()"
@@ -120,10 +120,10 @@
           },
           {
             "result": {
-              "duration": 12121,
+              "duration": 10667,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "click contact us",
             "match": {
               "location": "DataDrivenFramework.click_contact_us()"
@@ -132,10 +132,10 @@
           },
           {
             "result": {
-              "duration": 8738762899,
+              "duration": 7822624312,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "I contact the customer service with excel row \"2\" dataset",
             "match": {
               "arguments": [
