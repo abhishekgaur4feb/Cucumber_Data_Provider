@@ -44,7 +44,7 @@ public class VideoRecorder_utlity extends ScreenRecorder
 	}
 
 	public static void startRecord(String methodName) throws Exception {
-		File file = new File("./automationrecordings/"); //Path where vidoe recording would be stored inside project
+		File file = new File("./automationrecordings/"); //Path where video recording would be stored inside project
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		int width = screenSize.width;
 		int height = screenSize.height;
